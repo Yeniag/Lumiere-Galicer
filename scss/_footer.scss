@@ -1,0 +1,13 @@
+@import "variables";
+.footer {
+    background-color: $bg-color;
+    justify-content: space-around;
+}
+
+.footer__end-of-page {
+    background-color: $footer-end-bg-color;
+}
+
+h6 {
+    color: $h6-color
+}

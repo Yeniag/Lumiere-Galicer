@@ -1,0 +1,52 @@
+@import "variables";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color;
+    overflow: none;
+}
+
+h1 {
+    margin: 1%;
+    padding: 2%;
+    font-family: josefin sans, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: $h1-color
+}
+
+p {
+    padding: auto;
+    align-items: center;
+    color: $p-color;
+}
+
+.btn {
+    font-family: fira sans, sans-serif;
+    font-weight: 400;
+    background-color: black;
+    border-color: black;
+}
+
+.btn--enviar {
+    @extend .btn;
+    background-color: #349c1a;
+    border-color: #349c1abb;
+}
+
+.btn--borrar {
+    @extend .btn;
+    background-color: #99240f;
+    border-color: #99240fd0;
+}
+
+.tcn {
+    font-size: 25px;
+    font-family: fira sans, sans-serif;
+    font-weight: 500;
+}
+
+.tcn a {
+    color: #ffffff;
+    text-decoration: none;
+}

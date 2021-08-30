@@ -1,0 +1,16 @@
+@import "variables";
+nav {
+    background-color: $bg-color;
+    border-bottom: $border-color;
+    .nav__block {
+        justify-content: center;
+    }
+    .nav__link {
+        text-decoration: none;
+        font-family: advent pro, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: $nav-a-color;
+        text-align: center;
+    }
+}

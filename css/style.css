@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+nav {
+  background-color: #d9d1a9;
+  border-bottom: #c0b891;
+}
+
+nav .nav__block {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .nav__link {
+  text-decoration: none;
+  font-family: advent pro, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #213d40;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9d1a9;
+  overflow: none;
+}
+
+h1 {
+  margin: 1%;
+  padding: 2%;
+  font-family: josefin sans, sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #213D40;
+}
+
+p {
+  padding: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #731F1F;
+}
+
+.btn, .btn--enviar, .btn--borrar {
+  font-family: fira sans, sans-serif;
+  font-weight: 400;
+  background-color: black;
+  border-color: black;
+}
+
+.btn--enviar {
+  background-color: #349c1a;
+  border-color: #349c1abb;
+}
+
+.btn--borrar {
+  background-color: #99240f;
+  border-color: #99240fd0;
+}
+
+.tcn {
+  font-size: 25px;
+  font-family: fira sans, sans-serif;
+  font-weight: 500;
+}
+
+.tcn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #d9d1a9;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__end-of-page {
+  background-color: #2a5559;
+}
+
+h6 {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

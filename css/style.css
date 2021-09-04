@@ -2,6 +2,7 @@
 nav {
   background-color: #d9d1a9;
   border-bottom: #c0b891;
+  overflow: none;
 }
 
 nav .nav__block {
@@ -75,13 +76,14 @@ p {
   background-color: #d9d1a9;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  overflow: none;
 }
 
 .footer__end-of-page {
   background-color: #2a5559;
 }
 
-h6 {
+h6 a {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

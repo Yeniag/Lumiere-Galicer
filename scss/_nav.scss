@@ -2,6 +2,7 @@
 nav {
     background-color: $bg-color;
     border-bottom: $border-color;
+    overflow: none;
     .nav__block {
         justify-content: center;
     }

@@ -3,6 +3,7 @@
     background-color: $bg-color;
     justify-content: space-around;
     overflow: none;
+    border-top: $border-color solid 1px;
 }
 
 .footer__end-of-page {

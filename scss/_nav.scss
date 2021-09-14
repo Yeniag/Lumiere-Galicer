@@ -1,7 +1,7 @@
 @import "variables";
 nav {
     background-color: $bg-color;
-    border-bottom: $border-color;
+    border-bottom: $border-color solid 1px;
     overflow: none;
     .nav__block {
         justify-content: center;

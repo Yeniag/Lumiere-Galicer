@@ -61,20 +61,21 @@ p {
   border-color: #99240fd0;
 }
 
-.tcn {
+.tcn_link {
   font-size: 25px;
   font-family: fira sans, sans-serif;
   font-weight: 500;
+  color: #5c1818;
 }
 
-.tcn a {
-  color: #000;
+.tcn_link {
+  color: #5c1818;
   text-decoration: none;
   display: inline-block;
 }
 
 .bounce-in-right {
-  -webkit-animation: bounce-in-right 1.1s ease-in 2s both;
+  -webkit-animation: bounce-in-right 1.1s ease-in 1.5s both;
   animation: bounce-in-right 1.1s ease-in 2s both;
 }
 
@@ -216,7 +217,7 @@ h3 {
   background-color: #2a5559;
 }
 
-h6 a {
-  color: #ffffff;
+.footer__madeBy {
+  background-color: #255357;
 }
 /*# sourceMappingURL=style.css.map */
